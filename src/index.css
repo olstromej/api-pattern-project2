@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(52, 128, 194);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  color: gold;
+  text-decoration: underline gold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h3 {
+  color: gold;
+  box-shadow: 0 0 20px 0 yellow;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
