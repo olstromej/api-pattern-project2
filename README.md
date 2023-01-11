@@ -1,6 +1,6 @@
 # JSON API WITH TABS
 
-Built a TAB UI pattern in React and integrated it with a Harry Potter API.
+Built a TAB and Modal UI pattern in React and integrated it with two separate Harry Potter API's using axios and fetch.
 
 <br></br>
 
@@ -9,15 +9,17 @@ Built a TAB UI pattern in React and integrated it with a Harry Potter API.
 ---
 Below are the directions to utilize the React app.
 <br></br>
-1. Click link to each house to display information
+1. Click each picture to get information on each character.
+2.Click link to each house to display information on the house.
 
 <br></br>
 
 ### Screenshots
 ---
-Displayed Screen
-![Front Screen](https://i.imgur.com/29DX1T2.png)
+Displayed Screen with Characters
+![New Front Screen](https://i.imgur.com/SiJRdgj.png)
 <br></br>
+
 
 View After Chosen Link
 ![View](https://i.imgur.com/VakV8pT.png)
@@ -29,6 +31,7 @@ View After Chosen Link
 * React
 * Axios
 * CSS
+* Node fetch
 
 <br></br>
 
@@ -42,4 +45,4 @@ View After Chosen Link
 ### Post MVP
 ---
 
-1. Add more links to populate characters!
+1. Add a search button that would allow a user to search for a character by their name or their house.
