@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-  color: gold;
+  box-shadow: inset 100px 0 0 0 gold;
 }
 
 .characters-list {
@@ -34,23 +34,20 @@ a:hover {
   justify-content: center;
   grid-template-columns: repeat(5, 120px);
   grid-template-rows: repeat(5, 120px);
-
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; */
 }
 
 .modal {
   position: absolute;
   left: 25%;
   top: 25%;
-  transform: translate(-50,  -50%)
+  transform: translate(-50,  -50%);
 }
 
 .modal-content {
   height: 50vh;
   width: 50vw;
-  color: white;
+  color: gold;
+  font-weight: bold;
   background-color: black;
   border-radius: 20%;
   display: flex;
@@ -60,4 +57,10 @@ a:hover {
 
 .image {
   height: 100px;
+  box-shadow: 0 0 20px 0 yellow;
+}
+
+.image:hover {
+  box-shadow: 0 0 20px 0 black;
+  cursor: wait;
 }
