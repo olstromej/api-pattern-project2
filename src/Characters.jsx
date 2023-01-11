@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react';
+import './App.css'
 
 export default function Characters() {
     const [characters, setCharacters] = useState([])
@@ -29,8 +30,7 @@ export default function Characters() {
         <div className="characters-list">
           {characters.slice(0, 25).map((character, index) => (
             <div className="character-container" onClick={() => handleClick(character)} key={index}>
-              <img src={character.image} alt={character.name}/>
-              <h3>{character.name}</h3>
+              <img className="image" src={character.image} alt={character.name}/>
             </div>
           ))}
         </div>
