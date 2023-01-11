@@ -5,7 +5,7 @@ import './App.css'
 function Navbar() {
     return(
         <header>
-        <h1>The Houses of Harry Potter</h1>
+        <h1>Harry Potter Character's and House Information</h1>
         <nav>
             <Link to="/">Home</Link>
             <Link to="/houses/Gryffindor">Gryffindor</Link>
